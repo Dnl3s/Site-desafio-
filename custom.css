@@ -46,7 +46,7 @@ nav > a {
   text-align: center;
   margin: auto;
   text-decoration: none;
-  border: 1px solid #0f1442;
+  border: 0px solid #0f1442;
   background-color: #0f1442;
   border-radius: 0 0 5px 5px;
 }
@@ -58,9 +58,6 @@ nav a:hover {
   justify-content: left;
   color: gray;
   background-color: #101335;
-}
-main a {
-  text-decoration: underline;
 }
 /* conteudo principal */
 main {
@@ -84,6 +81,9 @@ main > p {
   max-width: 800px;
   margin: 15px 0 15px 0;
   font: normal normal 15px arial, sans-serif;
+}
+main a {
+  text-decoration: underline;
 }
 a, strong {
   text-decoration: none;
